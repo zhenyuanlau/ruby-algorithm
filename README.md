@@ -1,20 +1,30 @@
-# Ruby Spec
+# Ruby 算法
 
-## Deps
+面向后端工程师
 
-```bash
-bundle init
-asdf install ruby latest
-rubocop --init
-rspec --init
-```
+## 核心
 
-## Func
+- 线性结构(双针模型)
+- 树形结构(分治模型)
+- 图形结构(遍历模型)
+- 动态规划(备忘模型)
 
-Learning Ruby in a spec way.
+## 基础
 
-## Usage
+### 数据结构
 
-```bash
-rspec -fd
-```
+- 数组 → 队列/栈
+- 链表
+- 二叉树
+- 图
+
+### 算法
+
+- 查找
+- 排序
+
+## 分类
+
+- 模式
+- 热度
+- 难度

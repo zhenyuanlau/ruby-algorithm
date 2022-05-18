@@ -11,3 +11,6 @@
 AllCops:
   SuggestExtensions: false
   NewCops: enable
+
+Metrics/MethodLength:
+  Enabled: false

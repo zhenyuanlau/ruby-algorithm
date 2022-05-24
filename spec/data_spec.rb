@@ -1,7 +1,11 @@
 # frozen_string_literal: true
 
 RSpec.describe '数据结构' do
-  context '线性结构' do
+  # 物理结构(数组/链表)
+  # 逻辑结构(线型结构/树型结构/图型结构)
+  # 数据类型 := 值集合 + 值上的操作集合
+
+  context '线型结构' do
     example '数组' do
       expect(Array.new([])).to eq []
     end
@@ -59,13 +63,13 @@ RSpec.describe '数据结构' do
     end
   end
 
-  context '树形结构' do
+  context '树型结构' do
     example '二叉树'
     example '二叉树搜索树'
     example 'N 叉树'
   end
 
-  context '图形结构' do
+  context '图型结构' do
     example '邻接表' do
       graph = {
         'A' => %w[B C],

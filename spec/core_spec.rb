@@ -34,17 +34,6 @@ RSpec.describe '核心' do
       head = [1].to_list
       expect(cycle?(head)).to eq false
     end
-
-    # example '[142] 环形链表 II' do
-    #   head = [3, 2, 0, -4].to_cycle_list(1)
-    #   expect(detect_cycle(head)).to eq List.node_at(head, 1)
-
-    #   head = [1, 2].to_cycle_list(0)
-    #   expect(detect_cycle(head)).to eq List.node_at(head, 0)
-
-    #   head = [1].to_list
-    #   expect(detect_cycle(head)).to eq nil
-    # end
   end
 
   context '树型结构：分治模型'

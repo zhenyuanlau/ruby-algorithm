@@ -2,6 +2,8 @@
 
 算法设计与分析 -- Ruby 语言描述.
 
+*注意*: 已合并至 <https://github.com/zhenyuanlau/ruby-spec>。
+
 ```bash
 rspec -fd
 ```
